@@ -1,4 +1,5 @@
 resource "aws_instance" "myec2" {
+    region    = var.region
     ami     = var.ami
     instance_type = var.instance 
     tags = {
