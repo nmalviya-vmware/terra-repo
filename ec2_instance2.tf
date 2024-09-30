@@ -1,4 +1,4 @@
-resource "aws_instance" "myec2_para" {
+resource "aws_instance" "para" {
     region    = var.region
     ami     = var.ami
     instance_type = var.instance 
